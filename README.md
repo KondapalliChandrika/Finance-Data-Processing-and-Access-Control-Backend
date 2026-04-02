@@ -47,7 +47,7 @@ server.js                  # Entry point
 ### 2. Clone & Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/KondapalliChandrika/Finance-Data-Processing-and-Access-Control-Backend.git
 cd "Finance-Data-Processing-and-Access-Control-Backend"
 npm install
 ```
