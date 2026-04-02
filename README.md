@@ -48,14 +48,13 @@ server.js                  # Entry point
 
 ```bash
 git clone <repo-url>
-cd "Finance Data Processing and Access Control Backend"
+cd "Finance-Data-Processing-and-Access-Control-Backend"
 npm install
 ```
 
 ### 3. Configure Environment
 
 ```bash
-cp .env.example .env
 # Edit .env and set your DATABASE_URL
 ```
 
@@ -69,14 +68,7 @@ PORT=3000
 NODE_ENV=development
 ```
 
-### 4. Create the Database
-
-```bash
-createdb finance_db
-# or via psql: CREATE DATABASE finance_db;
-```
-
-### 5. Seed Demo Data
+### 4. Seed Demo Data
 
 ```bash
 node seed.js
