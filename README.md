@@ -82,7 +82,7 @@ This creates 3 demo users and 84 financial records across 12 months:
 | analyst@finance.dev | Password123! | analyst |
 | viewer@finance.dev | Password123! | viewer |
 
-### 6. Start the Server
+### 5. Start the Server
 
 ```bash
 npm start          # production
