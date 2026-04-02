@@ -96,10 +96,6 @@ This creates 3 demo users and 84 financial records across 12 months:
 npm start          # production
 npm run dev        # development with hot reload (nodemon)
 ```
-
-Server starts at **http://localhost:3000**  
-Swagger UI at **http://localhost:3000/api-docs**
-
 ---
 
 ## API Endpoints
