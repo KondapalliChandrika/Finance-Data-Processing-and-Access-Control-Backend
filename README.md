@@ -85,8 +85,8 @@ This creates 3 demo users and 84 financial records across 12 months:
 ### 5. Start the Server
 
 ```bash
-npm start          # production
-npm run dev        # development with hot reload (nodemon)
+npm start          
+npm run dev        
 ```
 ---
 
