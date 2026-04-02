@@ -31,6 +31,23 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
     swaggerOptions: { persistAuthorization: true },
 }));
 
+// ── Root Welcome ───────────────────────────────────────────────────
+app.get('/', (_req, res) => {
+    res.json({
+        success: true,
+        message: 'Welcome to the Finance Data Processing & Access Control API',
+        version: '1.0.0',
+        docs: 'http://localhost:3000/api-docs',
+        health: 'http://localhost:3000/health',
+        endpoints: {
+            auth: '/api/auth',
+            users: '/api/users',
+            records: '/api/records',
+            dashboard: '/api/dashboard',
+        },
+    });
+});
+
 // ── Health Check ───────────────────────────────────────────────────
 app.get('/health', (_req, res) => res.json({ status: 'ok', timestamp: new Date().toISOString() }));
 
