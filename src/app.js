@@ -37,8 +37,8 @@ app.get('/', (_req, res) => {
         success: true,
         message: 'Welcome to the Finance Data Processing & Access Control API',
         version: '1.0.0',
-        docs: 'http://localhost:3000/api-docs',
-        health: 'http://localhost:3000/health',
+        docs: '/api-docs',
+        health: '/health',
         endpoints: {
             auth: '/api/auth',
             users: '/api/users',
